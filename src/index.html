@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <title>Sistema de cadastro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <img src="../imagens/image.png" />
+  <h1>Adicionar Produto</h1>
+
+  <form id="lidarComFormulario">
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" name="nome" placeholder="Digite o nome" />
+
+    <label for="quantidade">Quantidade</label>
+    <input id="quantidade" type="text" name="quantidade" placeholder="Digite a quantidade" />
+
+    <label for="codigo_produto">codigo do produto</label>
+    <input id="codigo_produto" type="text" name="codigo_produto" placeholder="Digite o codigo do produto" />
+
+    <label for="marca">Marca</label>
+    <input id="marca" type="text" name="marca" placeholder="Digite a marca" />
+
+
+    <button type="submit">cadastrar produto</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
